@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/jquery.js"></script>
+
+</head>
+<body>
+
+<button>Set the color property of all p elements</button>
+
+<p>This is a paragraph.</p>
+<p>This is another paragraph.</p>
+<div class = ".panel-collapse">
+  <div class = "inner-panel">
+       <ul class = "top-menu">
+         <li class = "active">One </li>
+         <li>Onesee </li>
+		 <li>Onetee</li>
+    </ul>
+  </div>
+</div>
+<div>
+  <div>
+       <ul>
+         <li class = "active">One </li>
+         <li>Onesee </li>
+    </ul>
+  </div>
+</div>
+<div class = ".panel-collapse">
+  <div class = "inner-panel">
+     <ul>
+          <li class = "active">Two </li>
+          <li>Twosee </li>
+    </ul>
+    
+  </div>
+</div>
+<div class = ".panel-collapse">
+   <div class = "inner-panel">
+       <ul>
+            <li class = "active">Three </li>
+            <li>Threesee </li>
+       </ul>
+   </div>
+</div>
+
+/****/
+<div class="container" id="section1"> 
+		<ul class="selection">
+			<li id="first">One</li> 
+		    <li id="second">Two</li> 
+			<li id="third">Three</li> 
+		</ul> 
+		<div class="content"> 
+				<p class="para">stick...</p> 
+		</div>
+</div>
+<div class="container" id="section2"> 
+       <ul class="selection"> 
+	      <li id="one">One</li> 
+		  <li id="two">Two</li> 
+		  <li id="three">Three</li> 
+		</ul> 
+		<div class="content"> 
+			<p class="para">tick...</p> 
+		</div>
+</div>
+ <script>
+   
+    $("button").click(function(){
+        /*$('.container .selection li').css("color", "red"); */
+		$('.panel-collapse .top-menu li).css("color", "red");
+		$(".panel-collapse ")
+    });
+
+
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,324 @@
+/*
+
+Compass Template
+    
+http://www.templatemo.com/tm-454-compass
+
+
+http://meyerweb.com/eric/tools/css/reset/ 
+v2.0 | 20110126
+License: none (public domain)
+
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  /*font-size: 100%;*/
+  /*font: inherit;*/
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*------------------------------------------------------
+	Basic Styling 
+--------------------------------------------------------*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  word-wrap: break-word;
+  color: #333;
+  line-height: 26px;
+}
+
+a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input::-moz-focus-inner {
+  border: 0;
+}
+
+a:hover, a:active, a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Siemens_Sans_Roman", "Open Sans", sans-serif;
+  color: #39C3F2;
+  
+}
+
+.top-header .right-header ul.social-icons, .main-header .menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+#services, #portfolio, #about, #contact {
+  padding-top: 120px;
+}
+
+/*------------------------------------------------------
+	Header Styles 
+--------------------------------------------------------*/
+.top-header {
+background:  #A8CF38; /* Old browsers */
+background: -moz-linear-gradient(right, #A8CF38 0%, #83CB76 33%, #5EC7B4 66% #39C3F2 100% ); /* FF3.6-15 */
+background: -webkit-linear-gradient(right, #A8CF38 0%, #83CB76 33%, #5EC7B4 66%, #39C3F2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to left, #A8CF38 0%, #83CB76 33%, #5EC7B4 66%, #39C3F2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=' #A8CF38 0%', endColorstr='#39C3F2',GradientType=0 ); /* IE6-9 */
+	
+  color: white;
+  padding: 10px 0;
+}
+.top-header .left-header span {
+  display: inline-block;
+  margin: 8px 30px 0 0;
+}
+.top-header .left-header span i {
+  margin-right: 10px;
+}
+.top-header .right-header ul.social-icons li {
+  display: inline-block;
+}
+.top-header .right-header ul.social-icons li a {
+  color: white;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid white;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  margin: 0 5px;
+}
+.top-header .right-header ul.social-icons li a:hover {
+  background-color: #fff;
+  color: #39C3F2;
+}
+
+.main-header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  padding: 30px 0;
+ /* padding: 25px 0;*/
+  
+  background: #2F2F2F;
+  -webkit-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
+  -moz-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
+  box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.main-header-shrink {
+  padding: 25px 0;
+  top: 0px;
+  background:rgba(0,0,0,.7);
+  position:fixed;
+  width:100%
+}
+
+.main-header .menu {
+  margin-top: 10px;
+}
+.main-header .menu ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+.main-header .menu ul li a {
+  /*text-transform: uppercase; */
+  color: #fff;
+  font-size: 15px;
+  padding: 10px 3px;
+ /* padding: 8px 15px;old one */
+ /* -webkit-border-radius: 3px;
+  border-radius: 3px; */
+  /*margin-right: 25px;*/
+}
+.main-header .menu ul li a.current {
+  /*background: #A8CF38; */
+  color: white;
+  border-bottom:2px solid #A8CF38;
+}
+
+.main-header .menu ul li a:hover {
+  color: #A8CF38;
+}
+.responsive-menu {
+  position: relative;
+  top: -26px;
+}
+.responsive-menu .toggle-menu {
+  font-size: 24px;
+  color: #A8CF38;
+}
+.responsive-menu .menu {
+  display: none;
+  position: absolute;
+  top: 52px;
+  width: 100%;
+  background-color: #000;
+}
+.responsive-menu .menu ul li {
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid #A8CF38;
+  margin: 0;
+}
+.responsive-menu .menu ul li:last-child {
+  border-bottom: 0;
+}
+.responsive-menu .menu ul li a {
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+.responsive-menu .menu ul li a.current {
+  background-color: #fff;
+  color: black;
+  border: 1px solid #A8CF38;
+}
+
+.logo img {
+	float:left;
+	width: 100px;
+}
+.fteamviewer {
+	padding: 5px 7px 8px 7px;
+}
+
+/* content */
+h1 {
+	text-align:center;
+	padding: 40px 0 40px 0;
+	
+}
+h3 {
+	padding: 20px 0 20px 0;
+	
+}
+p {
+	font-size: 1.2em;
+	padding: 10px 0 10px 0;
+}
+ul.reglist {
+	margin-left: 40px;
+	font-size: 1.2em;
+}
+ul.reglist li:before { 
+  content: "";
+  margin-right: 10px;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #39C3F2;
+  border-radius: 50%;
+  margin-bottom: 2px;
+}
+span.lines {
+	display:block;
+	border-top: 1px solid lightgray;
+	margin: 40px 0 40px 0;
+}
+.table {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: 60px;
+	width: 90% !important;
+}
+.table > tbody > tr > td {
+	border-top: none;
+	
+}
+
+td, #myTab li {
+	font-size: 1.2em;
+}
+a.adobe:hover {
+	text-decoration: underline;
+}
+/*------------------------------------------------------
+	Footer Styles 
+--------------------------------------------------------*/
+.site-footer {
+  margin-top: 50px;
+background-color:background:  #A8CF38; /* Old browsers */
+background: -moz-linear-gradient(right, #A8CF38 0%, #83CB76 33%, #5EC7B4 66% #39C3F2 100% ); /* FF3.6-15 */
+background: -webkit-linear-gradient(right, #A8CF38 0%, #83CB76 33%, #5EC7B4 66%, #39C3F2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to left, #A8CF38 0%, #83CB76 33%, #5EC7B4 66%, #39C3F2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=' #A8CF38 0%', endColorstr='#39C3F2',GradientType=0 ); /* IE6-9 */
+
+  color: white;
+  padding: 25px 0;
+}
+.site-footer p {
+  margin-top: 10px;
+}
+.site-footer a {
+  color: white;
+  text-align: center;
+  display: block;
+}
+.site-footer .go-top {
+  float: right;
+  text-transform: uppercase;
+}
+.site-footer .go-top i {
+  display: block;
+}
+#prodoc {
+	background-color: #F5F7F8;
+}

@@ -1,0 +1,246 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+ body {
+    /*overflow-x: hidden;*/
+	font: 14px/23px "Siemens_Sans_Roman", "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+ }
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+#configuring-alarm,#email-alarm,#alarm-console {
+	
+}
+
+
+.logo {
+	background: #2F2F2F;
+	margin-bottom:4px;
+	
+}
+.logo img {
+	width:120px;
+	padding: 10px;
+}
+/* accordion design */
+
+.panel-default > .panel-heading {
+    background:  #A8CF38; 
+}
+.panel {
+	border: 2px solid #A8CF38;
+	
+	
+}
+.panel-title {
+	color: #fff;
+	
+}
+.panel-title:hover{
+	color: #fff;
+}
+.panel-body {
+   	padding-bottom: 0px;
+}
+td a {
+	color: orange;
+	font-size: 14px;
+}
+td a:hover, active, focus {
+	color: #000;
+	text-decoration: none;
+	
+	
+}
+ul li a {
+	padding-left:15px;
+	color: #000;
+}
+
+ul li a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+    /* accordion side menu fixed or bootstrap affix */
+#sidemenu {
+	position: fixed;
+}	
+.affix {
+    position: fixed;
+    margin-top:0px;
+    width:18.3%;
+  }
+   /* Content */
+h1 {
+	padding-top: 20px;
+	padding-bottom: 16px;
+}
+h2 {
+	padding-bottom: 2px;
+	margin-top: 20px;
+}
+.lines {
+	display: block;
+	width: 100%;
+	height: 1px;
+	border: 0;
+    border-top: 1px solid #39C3F2;
+    margin-top: 1px;
+	margin-bottom:15px;
+    padding-top:2px;
+}
+
+.image{
+	background:#282828;
+	width: 50%;
+	
+}
+.imagenext{
+	background:#282828;
+	width: 100%;
+	
+}
+h5 {
+	margin-bottom:8px;
+}
+.imageback{
+	background: #F5F5F5;
+	padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+	margin-top: 15px;
+}
+span {
+	color: orange;
+}
+span.lmb {
+	color: #A8CF38;
+}
+img {
+	max-width: 100%; 
+	display:block; 
+	height: auto;
+}
+.content {
+	top: 55px;
+}
+	
+
+/*responsive menu */
+
+.responsive-menu {
+  position: relative;
+  top: 0px;
+  z-index: 44;
+  
+}
+.toggle-menu {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.responsive-menu .toggle-menu {
+  font-size: 24px;
+  color: #A8CF38;
+}
+.toggle-menu {
+  padding-top:14px;
+}
+.responsive-menu .menu {
+  display: none;
+  position: relative;
+  top: 5px;
+  width: 250px;
+  background-color: #e3722e;
+  left: 5px;
+}
+.responsive-menu .menu ul li {
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid #A8CF38;
+  margin: 0;
+  background-color: #000;
+}
+.responsive-menu .menu ul li:last-child {
+  border-bottom: 0;
+}
+.responsive-menu .menu ul li a {
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+}
+.responsive-menu .menu ul li a.current {
+  background-color: #fff;
+  color: black;
+  border: 1px solid #A8CF38;
+}
+
+ /* Mobile menu */
+.logo-responsive {
+	background: rgba(0,0,0,.7);
+	height:55px;
+	width:100%;
+}
+.logo-responsive img {
+	width:120px;
+	padding-top:10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+}
+.mobilemenu, .logo-responsive {
+	position: fixed;
+	top: 0px;
+}
+.mobilemenu {
+	z-index: 100;
+	right: 15px;
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) { 
+
+	/*{// IE10+ CSS here } */
+}
+
+

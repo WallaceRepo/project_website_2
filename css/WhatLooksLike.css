@@ -1,0 +1,830 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-weight: 300;
+  font-size: 14px;
+  
+  }
+.top-header .right-header ul.social-icons, .main-header .menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.top-header {
+background:  #A8CF38; /* Old browsers */
+background: -moz-linear-gradient(right, #A8CF38 0%, #83CB76 33%, #5EC7B4 66% #39C3F2 100% ); /* FF3.6-15 */
+background: -webkit-linear-gradient(right, #A8CF38 0%, #83CB76 33%, #5EC7B4 66%, #39C3F2 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to left, #A8CF38 0%, #83CB76 33%, #5EC7B4 66%, #39C3F2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=' #A8CF38 0%', endColorstr='#39C3F2',GradientType=0 ); /* IE6-9 */
+	
+  color: #f6faeb;
+  padding: 10px 0;
+}
+.top-header .left-header span {
+  display: inline-block;
+  margin: 8px 30px 0 0;
+  font-weight: 400;
+  font-size: 1.2em;
+  letter-spacing:1px
+}
+.top-header .left-header span i {
+  margin-right: 10px;
+}
+.top-header .right-header ul.social-icons li {
+  display: inline-block;
+}
+.top-header .right-header ul.social-icons li a {
+  color: white;
+  width: 32px;
+  height: 32px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid white;
+  -webkit-border-radius: 16px;
+  border-radius: 16px;
+  margin: 0 5px;
+  text-decoration:none;
+}
+.fteamviewer {
+	padding: 6px 5px 9px 5px;
+	font-weight:400;
+}
+.top-header .right-header ul.social-icons li a:hover {
+  background-color: #fff;
+  color: #333;
+  
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 15px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.fa-bars {
+	font-size: 24px;
+	color: #A8CF38;
+}
+button,
+button:active,
+button:focus, 
+button:hover,
+.btn,
+.btn:active, 
+.btn:focus, 
+.btn:hover{   
+    outline:none !important;
+}
+.main-header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  min-height: 60px !important;
+  /*padding: 20px 0;*/
+  background: #2F2F2F;
+
+  -webkit-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
+  -moz-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
+  box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.main-header-shrink {
+  padding: 1px 0;
+  top: 0px;
+  background: rgba(0,0,0,.7);
+  position:fixed;
+  width:100%
+}
+.left-header span i.fa-phone, .left-header span i.fa-envelope {
+	color: #fff;
+}
+.nav .open a {
+	background: #fff!important;
+	color: #000!important;
+    
+	}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: #fff;
+	font-size: 1.3em;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+	border-bottom:2px solid #A8CF38;
+}
+.navbar-brand {
+	padding-top: 15px;
+	float: left;
+    font-size: 18px;
+    line-height: 25px; 
+    height: 60px;
+	display: inline-block;
+	z-index: 1000;
+}
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 13px;
+  padding: 9px 10px !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 16.5px;
+    padding-bottom: 16.5px;
+    line-height: 27px;
+  }
+}
+
+.dropdown-menu > li > a {
+	padding: 0;
+}
+.mega-dropdown {
+  position: static!important;
+}
+.main-menu {
+    padding: 60px 30px 60px 70px;
+    width: 58%;
+	left:400px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 11px 12px -10px rgba(0,0,0,0.27);
+    -moz-box-shadow: 0px 11px 12px -10px rgba(0,0,0,0.27);
+     box-shadow: 0px 11px 12px -10px rgba(0,0,0,0.27);
+	 
+}
+.main-menu > li {
+  width:30%;
+  float:left;
+  margin: 5px;
+  padding-left: 60px;
+  
+}
+ul.main-menu > li > a {
+	padding-bottom: 10px;
+    margin: 0;
+	background-color: #f5f5f5;
+	font-size: 1.2em;
+	
+}
+.main-menu > li:after {
+	content: '';
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+	border-right: 1px solid #f5f5f5;
+}
+.dropdown-sub-menu {
+	list-style:none;
+	padding:0;
+	margin:0;
+	text-align:left;
+}	
+.dropdown-sub-menu li a{
+	display:block;
+	color: #000;
+	padding: 10px 0px;
+}
+
+
+
+/* flexslider*/
+.flexslider {
+  margin-top: 0px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  overflow: hidden;
+}
+
+.flex-direction-nav a {
+  color: #444444;
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  margin: -20px 0 0 0;
+  text-align: center;
+  line-height: 40px;
+}
+
+.flex-caption {
+  position: absolute;
+  top: 39%;
+  width: 100%;
+  text-align: center;
+  z-index: 999;
+  color: white;
+}
+.flex-caption h2 {
+  font-size: 4em;
+  font-weight: 200;
+  color: #fff;
+  margin-bottom: 45px;
+}
+.flex-caption p {
+  font-size: 2.8em;
+  color: #fff;
+  font-weight: 200;
+}
+.flex-caption span {
+  background: url(../images/slider-dec.png) no-repeat;
+  width: 60px;
+  height: 9px;
+  display: block;
+  margin: 30px auto;
+}
+                    
+.jumbotron {
+	padding: 0;
+	margin-bottom:0px;
+	background: #fff;
+}
+.jumbotron h1 {
+	font-weight: 300;
+	font-size: 25px;
+	font-family: 'Roboto', sans-serif;
+}	
+		  /*Icons*/
+@font-face {
+	font-family: 'icomoon';
+	src: url('../fonts/icomoon.eot');
+	src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Windows Chrome ugly fix http://stackoverflow.com/questions/13674808/chrome-svg-font-rendering-breaks-layout/14345363#14345363 */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: 'icomoon';
+		src: url('../fonts/icomoon.svg#icomoon') format('svg');
+	};
+}
+
+.icon-equipment, .icon-flat-plan, .icon-network, .icon-calendar2, .icon-sun {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon-equipment:before {
+	content: "\e906";
+}
+
+.icon-flat-plan:before {
+	content: "\e907";
+}
+
+.icon-network:before {
+	content: "\e90e";
+}
+
+.icon-calendar2:before {
+	content: "\e905";
+}
+
+.icon-sun:before {
+	content: "\e9d4";
+}
+
+a, li {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+/* Global CSS that are applied for all screen sizes */
+
+.navb ul {
+	/*max-width: 1240px;*/
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 1.7em;
+	font-weight: 300;
+}
+
+.navb li span {
+	display: block;
+}
+
+.navb a {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: color .5s, background .5s, height .5s;
+	-moz-transition: color .5s, background .5s, height .5s;
+	-o-transition: color .5s, background .5s, height .5s;
+	-ms-transition: color .5s, background .5s, height .5s;
+	transition: color .5s, background .5s, height .5s;
+}
+
+.navb i{
+	/* Make the font smoother for Chrome */
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-o-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+/* Remove the blue Webkit background when element is tapped */
+
+a, button {
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* Hover effect for the whole navigation to make the hovered item stand out */
+
+/*.no-touch */ .navb ul:hover a {
+	/*color: rgba(249, 249, 249, .5);*/
+	color:#fff;
+}
+
+/*.no-touch */.navb ul:hover a:hover {
+	/*color: rgba(249, 249, 249, 0.99);*/
+	color: #fff;
+	
+}
+.navb li:hover{
+	background: #444;
+	
+}
+/* Adding background color to the menu items */
+.navb li {
+	background: #303030;
+	border-right: 1px solid #666;
+	position:relative;
+}
+/* For screen bigger than 800px */
+@media (min-width: 50em) {
+
+	/* Transforms the list into a horizontal navigation */
+	.navb li {
+		float: left;
+		/*width: 16.66666666666667%;*/
+		width:20%;
+		text-align: center;
+		-webkit-transition: border .5s;
+		-moz-transition: border .5s;
+		-o-transition: border .5s;
+		-ms-transition: border .5s;
+		transition: border .5s;
+		border-bottom: 1px solid #f5f5f5;
+		-webkit-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
+        -moz-box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
+         box-shadow: 0 2px 4px rgba(1, 1, 1, 0.15) ;
+	}
+
+	.navb a {
+		display: block;
+		width: auto;
+	}
+
+	/* Placing the icon */
+	
+	.icon {
+		padding-top: 1.2em;
+	}
+
+	.icon + span {
+		margin-top: 1.1em;
+		-webkit-transition: margin .5s;
+		-moz-transition: margin .5s;
+		-o-transition: margin .5s;
+		-ms-transition: margin .5s;
+		transition: margin .5s;
+		margin-bottom: 1em;
+		font-size:0.8em;
+	}
+
+	/* Positioning the icons and preparing for the animation*/
+	.navb i {
+		position: relative;
+		display: inline-block;
+		margin: 0 auto;
+		padding: 0.6em;
+		border-radius: 50%;
+		font-size: 1.4em;
+		box-shadow: 0 0 0 30px transparent;
+		background: rgba(255,255,255,0.1);
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform: translate3d(0, 0, 0);
+		-o-transform: translate3d(0, 0, 0);
+		-ms-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+		-webkit-transition: box-shadow .6s ease-in-out;
+		-moz-transition: box-shadow .6s ease-in-out;
+		-o-transition: box-shadow .6s ease-in-out;
+		-ms-transition: box-shadow .6s ease-in-out;
+		transition: box-shadow .6s ease-in-out;
+	}	
+	
+	/* Animate the box-shadow to create the effect */
+	/*.no-touch*/ .navb a:hover i,
+	/*.no-touch*/ .navb a:active i,
+	/*.no-touch */.navb a:focus i {		
+		box-shadow: 0 0 0 0 rgba(255,255,255,0.2);
+		-webkit-transition: box-shadow .4s ease-in-out;
+		-moz-transition: box-shadow .4s ease-in-out;
+		-o-transition: box-shadow .4s ease-in-out;
+		-ms-transition: box-shadow .4s ease-in-out;
+		transition: box-shadow .4s ease-in-out;
+	}
+		
+}
+
+@media (min-width: 50em) and (max-width: 61.250em) {
+
+	/* Size and font adjustments to make it fit into the screen*/
+	.navb ul {
+		font-size: 1.2em;
+	}
+
+}
+
+/* The "tablet" and "mobile" version */
+
+@media (max-width: 49.938em) {		
+	
+	/* Instead of adding a border, we transition the background color */
+	.no-touch .navb ul li a:hover,
+	.no-touch .navb ul li a:active,
+	.no-touch .navb ul li a:focus {
+		background: rgb(227, 119, 20);
+	}
+	.navb ul li {
+		-webkit-transition: background 0.5s;
+		-moz-transition: background 0.5s;
+		-o-transition: background 0.5s;
+		-ms-transition: background 0.5s;
+		transition: background 0.5s;
+	}	
+
+}
+
+/* CSS specific to the 2x3 columns version */
+@media (min-width:32.5em) and (max-width: 49.938em) {
+	
+	/* Creating the 2 column layout using floating elements once again */
+	.navb li {
+		display: block;
+		float: left;
+		width: 50%;
+	}
+	
+	/* Adding some padding to make the elements look nicer*/
+	.navb a {
+		padding: 0.8em;		
+	}
+
+	/* Displaying the icons on the left, and the text on the right side using inline-block*/
+	.navb li span, 
+	.navb li span.icon {
+		display: inline-block;
+	}
+
+	.navb li span.icon {
+		width: 50%;
+	}
+
+	.navb li .icon + span {
+		font-size: 1em;
+	}
+
+	.icon + span {
+		position: relative;
+		top: -0.2em;
+	}
+
+	/* Adaptating to the icons to animate the size and border of the rounded background in a more discreet way */
+	.navb li i {
+		display: inline-block;
+		padding: 8% 9%;
+		border: 4px solid transparent;
+		border-radius: 50%;
+		font-size: 1.5em;
+		background: rgba(255,255,255,0.1);
+		-webkit-transition: border .5s;
+		-moz-transition: border .5s;
+		-o-transition: border .5s;
+		-ms-transition: border .5s;
+		transition: border .5s;
+	}
+
+	/* Transition effect on the border color */
+	.no-touch .navb li:hover i,
+	.no-touch .navb li:active i,
+	.no-touch .navb li:focus i {
+		border: 4px solid rgba(255,255,255,0.1);
+	}
+	
+}
+
+/* Adapting the font size and width for smaller screns*/
+@media (min-width: 32.5em) and (max-width: 38.688em) {
+	
+	.navb li span.icon {
+		width: 50%;
+	}
+
+	.navb li .icon + span {
+		font-size: 0.9em;
+	}
+}
+
+/* Styling the toggle menu link and hiding it */
+.navb .navtoogle{
+	display: none;	
+	width: 100%;
+	padding: 0.5em 0.5em 0.8em;
+	font-family: 'Lato',Calibri,Arial,sans-serif;
+	font-weight: normal;
+	text-align: left;
+	color: rgb(7, 16, 15);
+	font-size: 1.2em;
+	background: none;	
+	border: none;
+	border-bottom: 4px solid rgb(221, 221, 221);
+	cursor: pointer;
+}
+
+.navtoogle i{
+	z-index:-1;
+}
+
+.icon-menu {
+	position: relative;
+	top: 3px;
+	line-height: 0;
+	font-size: 1.6em;
+}
+
+@media (max-width: 32.438em) {
+
+	/* Unhiding the styled menu link */
+	.navb .navtoogle{
+		margin: 0;
+		display: block;
+	}
+	
+	/* Animating the height of the navigation when the button is clicked */
+	
+	/* When JavaScript is disabled, we hide the menu */
+	.no-js .navb ul {
+		max-height: 30em;
+		overflow: hidden;
+	}
+	
+	/* When JavaScript is enabled, we hide the menu */
+	.js .navb ul {
+		max-height: 0em;
+		overflow: hidden;
+	}
+	
+	/* Displaying the menu when the user has clicked on the button*/
+	.js .navb .active + ul {		
+		max-height: 30em;
+		overflow: hidden;
+		-webkit-transition: max-height .4s;
+		-moz-transition: max-height .4s;
+		-o-transition: max-height .4s;
+		-ms-transition: max-height .4s;
+		transition: max-height .4s;
+	}
+
+	/* Adapting the layout of the menu for smaller screens : icon on the left and text on the right*/
+	
+	.navb li span {
+		display: inline-block;
+		height: 100%;
+	}
+
+	.navb a {
+		padding: 0.5em;		
+	}
+	
+	.iconb + span {
+		margin-left: 1em;
+		font-size: 0.8em;
+	}
+	
+	/* Adding a left border of 8 px for each menu item*/
+	.navb li {
+		border-left: 8px solid rgb(174, 78, 1);
+	}
+
+	/* make the nav bigger on touch screens */
+	.touch .navb a {
+		padding: 0.8em;
+	}
+}
+
+ul.sdt_menu li div.exp {
+	display:block;
+	position:absolute;
+	width:100%; 
+	overflow:hidden;
+	height:0px;
+	bottom: 0px;
+	display:none;
+	top:0px;
+	z-index: 9999;
+	background:#fff;
+	
+	
+}
+ul.sdt_menu li div.exp a:first-child {
+	margin-top: 8px;
+	
+}
+ul.sdt_menu li div.exp a {
+	padding-bottom: 2px;
+	font-weight: 300;
+	color: #2f2f2f;
+	font-size: 0.8em;
+	
+}
+ul.sdt_menu li div.exp a:hover {
+	background: #39c3f2;
+}
+/*FOOTER*/
+footer {
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+footer .footer-left,
+footer .footer-center,
+footer .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+footer .footer-left{
+	width: 40%;
+}
+
+/* Footer links */
+
+footer .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+footer .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+footer .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+footer .footer-center{
+	width: 35%;
+}
+
+footer .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+footer .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+footer .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+footer .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+footer .footer-center p a{
+	color:  #5383d3;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+footer .footer-right{
+	width: 20%;
+}
+
+footer .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+footer .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+footer .footer-icons{
+	margin-top: 25px;
+}
+
+footer .footer-icons i{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+    margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+footer .fa-facebook:hover {
+	background-color: #3d5b99;
+}
+footer .fa-linkedin:hover {
+	background-color: #0073a4;
+}
+/* footer to be responsive with these media queries */
+
+@media (max-width: 880px) {
+
+	footer {
+		font: bold 14px sans-serif;
+	}
+
+	footer .footer-left,
+	footer .footer-center,
+	footer .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	footer .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+
